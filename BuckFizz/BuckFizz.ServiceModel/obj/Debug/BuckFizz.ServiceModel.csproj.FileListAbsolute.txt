@@ -1,0 +1,9 @@
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\BuckFizz.ServiceModel.dll
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\BuckFizz.ServiceModel.pdb
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\ServiceStack.Common.dll
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\ServiceStack.Interfaces.dll
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\ServiceStack.Text.dll
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\ServiceStack.Common.xml
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\bin\Debug\ServiceStack.Text.xml
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\obj\Debug\BuckFizz.ServiceModel.dll
+C:\Dev\BuckFizz\BuckFizz\BuckFizz\BuckFizz.ServiceModel\obj\Debug\BuckFizz.ServiceModel.pdb

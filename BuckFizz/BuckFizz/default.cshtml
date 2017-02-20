@@ -1,0 +1,57 @@
+﻿@inherits ViewPage
+@{
+    ViewBag.Title = "Buck Fizz Assessment - Jan Nortje";
+}
+<script>
+  
+
+    var app = angular.module('buckFizz', []);
+  
+    app.controller('webTable', ['$scope', '$http',
+        function ($scope, $http) {
+            this.wcount = 100;
+            var repeatCnt = this.wcount;
+            
+            $scope.$watch('webTable', function () {
+                   $http.get('/webTable/' + repeatCnt)
+                        .success(function (response) {
+                            $scope.tables = response.Result;
+
+                        });
+            });
+          
+            $scope.redrawTable = function (nValue) {
+          
+                $http.get('/webTable/' + nValue)
+         .success(function (response) {
+             $scope.tables = response.Result;
+
+         });
+            };
+               
+        }
+
+
+    ]);
+ 
+   
+  
+</script>
+
+
+
+<div ng-app="buckFizz" ng-controller="webTable as webtable">
+    <div style="display:table; width:100%; ">
+        <div style="position:relative;display:table-cell;">
+            Draw <input type="number" min="1" ng-model="webtable.wcount" /> blocks<br /><br />
+            <button ng-click="redrawTable(webtable.wcount)">Redraw Table</button>
+        </div>
+     
+    </div>
+    <hr />
+    <div class="columns">
+        <div class="tableitems" ng-repeat="item in tables track by $index">
+            {{item}}
+        </div>
+    </div>
+</div>
